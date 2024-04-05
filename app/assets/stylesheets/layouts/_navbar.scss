@@ -1,0 +1,19 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: var(--color-navbar);
+  box-shadow: var(--color-navbar) 2px 2px;
+
+  font-size: var(--font-size-l);
+
+  .navbar-right {
+    padding-right: var(--space-s);
+    margin-left: auto;
+  }
+}
