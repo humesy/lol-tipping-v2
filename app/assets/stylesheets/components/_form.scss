@@ -16,6 +16,7 @@
     border-radius: var(--border-radius);
     outline: none;
     transition: box-shadow 250ms;
+    margin-bottom: var(--space-l);
 
     &:focus {
       box-shadow: 0 0 0 2px var(--color-glint);
@@ -23,6 +24,16 @@
 
     &--invalid {
       border-color: var(--color-primary);
+    }
+  }
+
+  @include media(tabletAndUp) {
+    &__group {
+      display: flex;
+    }
+
+    &__input:not(:last-child) {
+      margin-right: var(--space-m);
     }
   }
 }

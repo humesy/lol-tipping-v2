@@ -1,0 +1,17 @@
+.card {
+  width: 100%;
+  text-align: center;
+  margin: var(--space-xxl) auto 0 auto;
+  padding: var(--space-s);
+  background-color: var(--color-white);
+  border: var(--border);
+  border-radius: var(--border-radius);
+
+  .header {
+    justify-content: center;
+  }
+
+  @include media(tabletAndUp) {
+    max-width: 600px;
+  }
+}

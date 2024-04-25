@@ -34,8 +34,7 @@
   --space-xxxxl: 4rem;   // 64px
 
   // Application colors
-  //--color-primary:          hsl(350, 67%, 50%);
-  //--color-primary-rotate:   hsl(10, 73%, 54%);
+  --color-primary:            #5783db;
   //--color-primary-bg:       hsl(0, 85%, 96%);
   //--color-secondary:        hsl(101, 45%, 56%);
   //--color-secondary-rotate: hsl(120, 45%, 56%);
@@ -46,7 +45,7 @@
 
   // Neutral colors
   --color-white:      hsl(0, 0%, 100%);
-  --color-navbar:     var(--color-light);
+  --color-navbar:     var(--color-white);
   --color-light:      hsl(0, 6%, 93%);
   --color-dark:       var(--color-text-header);
 

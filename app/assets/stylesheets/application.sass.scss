@@ -6,6 +6,7 @@
 // Configuration
 @import "config/variables";
 @import "config/reset";
+@import "config/margin";
 
 // Components
 @import "components/btn";
@@ -20,3 +21,4 @@
 @import "layouts/container";
 @import "layouts/header";
 @import "layouts/navbar";
+@import "layouts/card";
