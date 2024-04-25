@@ -1,5 +1,5 @@
 module NavbarHelper
   def navbar_partial
-    true ? 'shared/navbar_public' : 'shared/navbar_member'
+    current_user ? 'shared/navbar_member' : 'shared/navbar_public'
   end
 end
